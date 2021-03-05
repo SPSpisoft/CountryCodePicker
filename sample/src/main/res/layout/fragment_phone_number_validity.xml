@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.rilixtech.countrycodepicker.PhoneNumberValidityFragment"
+    tools:context="com.spisoft.countrycodepicker.PhoneNumberValidityFragment"
     >
 
   <androidx.cardview.widget.CardView style="@style/parentCard">
@@ -59,7 +59,7 @@
                 android:orientation="horizontal"
                 >
 
-              <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+              <com.spisoft.widget.countrycodepicker.CountryCodePicker
                   android:id="@+id/ccp"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"

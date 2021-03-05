@@ -1,4 +1,4 @@
-package com.rilixtech.widget.countrycodepicker;
+package com.spisoft.widget.countrycodepicker;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -277,7 +277,7 @@ public class CountryCodePicker extends RelativeLayout {
     mDefaultCountry = defaultCountry;
   }
 
-  @SuppressWarnings("unused") private Country getSelectedCountry() {
+  private Country getSelectedCountry() {
     return mSelectedCountry;
   }
 
@@ -716,6 +716,9 @@ public class CountryCodePicker extends RelativeLayout {
     return mSelectedCountry.getPhoneCode();
   }
 
+  public Country getmSelectedCountry(){
+    return mSelectedCountry;
+  }
   /**
    * To get code of selected country with prefix "+".
    *

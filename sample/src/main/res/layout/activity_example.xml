@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.rilixtech.countrycodepicker.ExampleActivity">
+    tools:context="com.spisoft.countrycodepicker.ExampleActivity">
 
     <androidx.viewpager.widget.ViewPager
         android:background="#bebebe"

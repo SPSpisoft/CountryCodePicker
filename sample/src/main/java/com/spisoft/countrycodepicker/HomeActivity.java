@@ -1,4 +1,4 @@
-package com.rilixtech.countrycodepicker;
+package com.spisoft.countrycodepicker;
 
 import android.content.Intent;
 import android.os.Bundle;

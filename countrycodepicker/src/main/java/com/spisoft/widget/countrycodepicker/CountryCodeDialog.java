@@ -1,4 +1,4 @@
-package com.rilixtech.widget.countrycodepicker;
+package com.spisoft.widget.countrycodepicker;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -26,7 +26,7 @@ import java.util.List;
  *
  * Created by Joielechong on 11 May 2017.
  */
-class CountryCodeDialog extends Dialog {
+public class CountryCodeDialog extends Dialog {
   private static final String TAG = "CountryCodeDialog";
 
   private EditText mEdtSearch;
@@ -42,7 +42,7 @@ class CountryCodeDialog extends Dialog {
   private CountryCodeArrayAdapter mArrayAdapter;
   private List<Country> mTempCountries;
 
-  CountryCodeDialog(CountryCodePicker countryCodePicker) {
+  public CountryCodeDialog(CountryCodePicker countryCodePicker) {
     super(countryCodePicker.getContext());
     mCountryCodePicker = countryCodePicker;
   }

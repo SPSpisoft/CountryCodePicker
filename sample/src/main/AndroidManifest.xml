@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rilixtech.countrycodepicker">
+    package="com.spisoft.countrycodepicker">
 
   <application
       android:allowBackup="true"
@@ -9,9 +9,9 @@
       android:supportsRtl="true"
       android:theme="@style/AppTheme">
     <activity
-        android:name="com.rilixtech.countrycodepicker.ExampleActivity"
+        android:name="com.spisoft.countrycodepicker.ExampleActivity"
         android:windowSoftInputMode="stateHidden"/>
-    <activity android:name="com.rilixtech.countrycodepicker.HomeActivity">
+    <activity android:name="com.spisoft.countrycodepicker.HomeActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <action android:name="android.intent.action.VIEW"/>
@@ -19,7 +19,7 @@
       </intent-filter>
     </activity>
 
-    <activity android:name=".PerformClickActivity"
+    <activity android:name="com.spisoft.countrycodepicker.PerformClickActivity"
         android:exported="true"/>
   </application>
 

@@ -1,4 +1,4 @@
-package com.rilixtech.countrycodepicker;
+package com.spisoft.countrycodepicker;
 
 
 import android.graphics.Typeface;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.rilixtech.widget.countrycodepicker.CountryCodePicker;
+import com.spisoft.widget.countrycodepicker.CountryCodePicker;
 
 
 /**

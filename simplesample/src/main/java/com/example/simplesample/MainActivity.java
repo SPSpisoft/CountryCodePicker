@@ -5,7 +5,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import com.rilixtech.widget.countrycodepicker.CountryCodePicker;
+import com.spisoft.widget.countrycodepicker.CountryCodePicker;
 
 public class MainActivity extends AppCompatActivity {
 

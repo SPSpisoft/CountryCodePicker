@@ -1,4 +1,4 @@
-package com.rilixtech.countrycodepicker;
+package com.spisoft.countrycodepicker;
 
 import android.graphics.PorterDuff;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.rilixtech.widget.countrycodepicker.CountryCodePicker;
+import com.spisoft.widget.countrycodepicker.CountryCodePicker;
 
 
 /**
